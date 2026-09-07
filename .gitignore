@@ -1,0 +1,57 @@
+# dependencies
+node_modules/
+
+# env
+.env
+.env.*
+!.env.example
+
+# build / generated
+.output/
+.vercel/
+.nitro/
+.tanstack/
+dist/
+*.tsbuildinfo
+
+# local data
+.pglite/
+*.db
+*.sqlite
+
+# logs & OS
+*.log
+.DS_Store
+Thumbs.db
+
+# editors
+.vscode/
+.idea/
+*.swp
+
+# leftover workspace dumps (never ship these)
+.grok/
+AGENTS.md
+AGENTS.project.md
+startup.sh
+attachments/
+artifacts/
+screenshots/
+public/__grok/
+.node_modules.lock
+*-grok-workspace.zip
+*.tar
+*.tar.tar
+tmp-*
+
+# scaffold kept for the hosted preview, not part of the app
+src/lib/auth/
+src/lib/app-data/
+src/lib/multiplayer/
+scripts/*.test.mjs
+scripts/browser-*.mjs
+scripts/brand-check*
+scripts/check-auth*
+scripts/preview*.mjs
+scripts/sign-out*
+scripts/write-atomic*
