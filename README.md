@@ -8,6 +8,7 @@ on the page they belong to. You can see how far the others have read, without
 anyone having to shout across the table.
 
 No accounts. A room is just a door and whoever walked through it.
+##DEMO video available "\.mp4"
 
 ## Running it
 
